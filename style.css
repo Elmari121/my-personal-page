@@ -17,7 +17,7 @@
   body {
     margin-top: 100px;
     font-family: var(--font-main);
-    background-color: #fff;
+    background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
     color: var(--text-color);
     line-height: 1.6;
     font-size: 16px;
@@ -28,6 +28,10 @@
     height: auto;
     border-radius: 8px;
     transition: transform var(--transition-speed);
+    background-color: #ffffff; 
+    border-radius: 10px;       
+    padding: 10px;             
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
   
   img:hover {
@@ -126,7 +130,7 @@
   .email-link {
     display: flex;
     justify-content: center;
-    color: var(--primary-color);
+     color: #333333;
     font-size: 1.75rem;
     text-decoration: none;
     font-weight: bold;
@@ -135,7 +139,7 @@
   
   .email-link:hover {
     text-decoration: underline;
-    color: #5548e1;
+    color: #000000; 
   }
   
 
@@ -178,7 +182,7 @@
     }
   
     img {
-      margin-bottom: 15px;
+        margin-bottom: 15px; 
     }
   }
   
