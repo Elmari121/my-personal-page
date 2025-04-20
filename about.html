@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Elmari Robberts is a Front-End Developer from South Africa. Explore my journey and projects.">
+    <title>About Elmari Robberts</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,65 +18,65 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <title>About Elmari Robberts</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">Elmari Robberts</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="about.html">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html#contact">Contact me</a>
-            </li>
-          </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Elmari Robberts</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link active" href="about.html">About me</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html#contact">Contact me</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <h1 class="text-center">About me</h1>
-    <h3 class="text-center">Front-end developer from South-Africa</h3>
-    <div class="about-paragraphs text-center">
-      <p>
-        Hey! I’m a front-end developer with a passion for building clean, responsive, and user-friendly web experiences.
-         I enjoy turning ideas into real, functional websites using HTML, CSS, and JavaScript. 
-         Whether I’m working on a weather app, a world clock, or experimenting with AI-powered tools,
-          I’m always looking to learn and improve. I love problem-solving, paying attention to the little details, 
-          and creating things that people actually enjoy using.
-      </p>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <img src="images/weather-app.png" class="img-fluid p-2 shadow rounded" />
+      </nav>
+    </header>
+    
+    <main>
+      <section class="text-center my-5">
+        <h1>About me</h1>
+        <h3>Front-End Developer from South Africa</h3>
+        <p>
+          Hey! I’m a front-end developer with a passion for building clean, responsive, and user-friendly web experiences. I enjoy turning ideas into real, functional websites using HTML, CSS, and JavaScript. Whether I’m working on a weather app, a world clock, or experimenting with AI-powered tools, I’m always looking to learn and improve. I love problem-solving, paying attention to the little details, and creating things that people actually enjoy using.
+        </p>
+      </section>
+      
+      <section class="container my-5">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="images/weather-app.png" class="img-fluid shadow rounded" alt="Weather App" />
+          </div>
+          <div class="col-sm-4">
+            <img src="images/world-clock.png" class="img-fluid shadow rounded" alt="World Clock" />
+          </div>
+          <div class="col-sm-4">
+            <img src="images/ai-recipe-generator.png" class="img-fluid shadow rounded" alt="AI Recipe Generator" />
+          </div>
         </div>
-        <div class="col-sm-4">
-          <img src="images/world-clock.png" class="img-fluid p-2 shadow rounded" />
-        </div>
-        <div class="col-sm-4">
-          <img src="images/ai-recipe-generator.png" class="img-fluid p-2 shadow rounded" />
-        </div>
-      </div>
-    </div>
-    <div id="contact" class="mt-5">
-      <h2 class="text-center">📮 Contact me</h2>
-      <a href="mailto:robbertselmari@gmail.com" class="email-link">Elmari Robberts </a>
-    </div>
+      </section>
+
+      <section id="contact" class="my-5">
+        <h2 class="text-center">📮 Contact me</h2>
+        <a href="mailto:robbertselmari@gmail.com" class="email-link">Elmari Robberts</a>
+      </section>
+    </main>
+
+    <footer>
+      
+    </footer>
   </body>
 </html>

@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Elmari Robberts</title>
+    <meta name="description" content="Elmari Robberts - Front-end Developer. Explore projects like Weather App, World Clock, and Recipe Generator.">
+    <title>Elmari Robberts | Front-End Developer</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -19,102 +20,87 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">Elmari Robberts</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html#contact">Contact me</a>
-            </li>
-          </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Elmari Robberts</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About me</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html#contact">Contact me</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <h2 class="text-center">👋 Hi I am</h2>
-    <h1 class="text-center">Elmari Robberts</h1>
-    <h3 class="text-center">Front-end developer, based in South-Africa</h3>
-    <div class="navigation-links mb-5">
-      <a href="about.html#contact" class="primary-link">Contact me</a>
-      <a href="about.html" class="secondary-link">About me</a>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <img src="images/weather-app.png" class="img-fluid rounded" />
+      </nav>
+    </header>
+    
+    <main>
+      <section class="text-center my-5">
+        <h2>👋 Hi I am</h2>
+        <h1>Elmari Robberts</h1>
+        <h3>Front-end developer, based in South Africa</h3>
+        <div class="navigation-links mb-5">
+          <a href="about.html#contact" class="primary-link">Contact me</a>
+          <a href="about.html" class="secondary-link">About me</a>
         </div>
-        <div class="col-6">
-          <h2 class="mb-3">Weather App</h2>
-          <p>
-            This is a simple and clean weather app I built using HTML, CSS, and JavaScript,
-             with API integration for real-time data. Users can search for any city to see the 
-             current weather and a 5-day forecast. It was a fun project that helped me get more
-              comfortable working with APIs and handling user input. Plus, who doesn’t love checking
-               the weather with something you built yourself?
- </p>
-          <div class="mt-5">
+      </section>
+
+      <section class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/weather-app.png" class="img-fluid rounded" alt="Weather App screenshot" />
+          </div>
+          <div class="col-md-6">
+            <h2 class="mb-3">Weather App</h2>
+            <p>
+              A simple weather app built with HTML, CSS, and JavaScript that shows real-time data via API integration. Users can search for any city to view the current weather and a 5-day forecast.
+            </p>
             <a href="#" class="primary-link">Launch weather app</a>
           </div>
         </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-6">
-          <h2 class="mb-3">World clock</h2>
-          <p>
-            This is a simple world clock I built with HTML, CSS, and JavaScript.
-             It shows the current time in two preset time zones and also lets users search for any city to check the
-              local time there. The clock updates automatically, so everything stays accurate in real-time.
-             It was a great way to dive into working with time zones and making the user experience feel smooth and intuitive.
-           
-          </p>
-          <div class="mt-5">
+        
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <h2 class="mb-3">World Clock</h2>
+            <p>
+              A world clock app built with HTML, CSS, and JavaScript. It shows current times in two preset time zones and allows users to check the time in any city.
+            </p>
             <a href="#" class="primary-link">Launch World clock</a>
           </div>
+          <div class="col-md-6">
+            <img src="images/world-clock.png" class="img-fluid rounded" alt="World Clock App screenshot" />
+          </div>
         </div>
-        <div class="col-6">
-          <img src="images/world-clock.png" class="img-fluid rounded" />
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-6">
-          <img src="images/ai-recipe-generator.png" class="img-fluid rounded" />
-        </div>
-        <div class="col-6">
-          <h2 class="mb-3">Recipe generator</h2>
-          <p>
-            This is a fun little app I built using HTML, CSS, and JavaScript.
-             Users can type in the ingredients they have on hand, 
-             and the AI whips up a custom recipe based on that info. 
-             It’s a cool way to explore how AI can be used in everyday tasks—plus,
-              it helps avoid wasting food! This project helped me get more comfortable with AI integration and user 
-              input handling.
-
-
-          </p>
-          <div class="mt-5">
+        
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <img src="images/ai-recipe-generator.png" class="img-fluid rounded" alt="AI Recipe Generator screenshot" />
+          </div>
+          <div class="col-md-6">
+            <h2 class="mb-3">Recipe Generator</h2>
+            <p>
+              A recipe generator built with HTML, CSS, and JavaScript. Users input available ingredients, and the AI generates recipe suggestions.
+            </p>
             <a href="#" class="primary-link">Launch recipe generator</a>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
+
+    <footer>
+
+    </footer>
   </body>
 </html>
